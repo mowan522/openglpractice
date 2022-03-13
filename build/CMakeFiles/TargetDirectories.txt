@@ -1,0 +1,4 @@
+D:/local-repo/openglpractice/build/CMakeFiles/ALL_BUILD.dir
+D:/local-repo/openglpractice/build/CMakeFiles/ZERO_CHECK.dir
+D:/local-repo/openglpractice/build/practice1/CMakeFiles/OldOpenGL_practice1.dir
+D:/local-repo/openglpractice/build/practice1/CMakeFiles/ALL_BUILD.dir

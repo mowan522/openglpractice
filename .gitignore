@@ -32,3 +32,4 @@
 *.app
 
 external/glfwlib
+./build
