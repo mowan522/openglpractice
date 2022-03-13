@@ -20,7 +20,7 @@ message("Project name is set as: ${PROJECT_NAME}")
 
 #glfw
 set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/../external/glfwlib)
-#find_package(glfw3 REQUIRED)
+find_package(glfw3 REQUIRED)
 
 #OpenGL
 find_package(OpenGL REQUIRED)
@@ -28,7 +28,7 @@ find_package(OpenGL REQUIRED)
 #####################################
 
 include_directories(
- ${CMAKE_PREFIX_PATH}/include
+ ${glfw3_INCLUDE_DIR}
  )
 
 add_executable(${PROJECT_NAME}
@@ -37,5 +37,5 @@ add_executable(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME}
  ${OPENGL_LIBRARY}
- ${CMAKE_PREFIX_PATH}/lib/glfw3.lib
+ glfw
  )
